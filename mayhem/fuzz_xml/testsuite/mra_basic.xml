@@ -1,0 +1,26 @@
+<misterromdescription>
+	<name>Test Game</name>
+	<setname>testgame</setname>
+	<rbf>testcore</rbf>
+	<mameversion>0229</mameversion>
+	<year>1985</year>
+	<manufacturer>ACME</manufacturer>
+	<players>2</players>
+	<joystick>8 way</joystick>
+	<rotation>vertical (cw)</rotation>
+	<region>World</region>
+	<switches default="ff,ff" base="16">
+		<dip name="Lives" bits="0,1" ids="3,4,5,Inf"/>
+	</switches>
+	<buttons names="Fire,Jump" default="A,B" count="2"/>
+	<rom index="1" zip="testgame.zip" md5="none">
+		<part name="game.bin" crc="deadbeef"/>
+		<part>00 01 02 03 04 05</part>
+		<interleave output="16">
+			<part name="a.bin" crc="12345678" map="01"/>
+			<part name="b.bin" crc="9abcdef0" map="10"/>
+		</interleave>
+	</rom>
+	<rom index="0"><part>00</part></rom>
+	<nvram index="4" size="2048"/>
+</misterromdescription>

@@ -1,0 +1,6 @@
+<romset name="kof98" altname="The King of Fighters '98">
+	<file name="242-p1.p1" type="P" index="0" size="0x100000" offset="0x0" crc="809e3c86"/>
+	<file name="242-c1.c1" type="C" index="1" size="0x800000" crc="&amp;lt;x&gt;"/>
+	<audio><entity attr='single' a="1"/></audio>
+	<?pi data?>
+</romset>

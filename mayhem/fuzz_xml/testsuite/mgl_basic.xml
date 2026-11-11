@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mistergamedescription>
+	<rbf>_console/NES</rbf>
+	<setname same_dir="1">NES</setname>
+	<file delay="2" type="s" index="1" path="../../../../media/fat/games/NES/game.nes"/>
+	<reset delay="1" hold="1"/>
+	<!-- comment -->
+	<![CDATA[ text & more ]]>
+</mistergamedescription>

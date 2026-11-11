@@ -1,0 +1,9 @@
+project: savantenvs/Main_MiSTer
+target: fuzz_a2disk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_a2disk/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_a2disk
+    libfuzzer: true
+    timeout: 20
